@@ -1,0 +1,11 @@
+# Claves privadas
+*.pem
+
+# Android
+.gradle/
+**/build/
+local.properties
+
+# IDE
+.idea/
+*.iml

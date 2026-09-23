@@ -1,0 +1,8 @@
+IPv4 pública:
+184.194.163.240
+
+DNS público:
+ec2-184-194-163-240.compute-1.amazonaws.com
+
+DNS IP privada IPv4:
+ip-172-31-17-108.ec2.internal

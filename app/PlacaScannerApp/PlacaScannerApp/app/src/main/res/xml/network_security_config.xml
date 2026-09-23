@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Tu backend usa HTTP plano (no HTTPS) en la IP 184.194.163.240:8080.
+  Desde Android 9 (API 28) el tráfico cleartext está bloqueado por defecto,
+  así que aquí lo habilitamos SOLO para esa IP específica.
+  Recomendado a futuro: poner HTTPS (con certificado) delante de tu FastAPI,
+  por ejemplo con Nginx + Let's Encrypt, y quitar esta excepción.
+-->
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="false">184.194.163.240</domain>
+    </domain-config>
+</network-security-config>
